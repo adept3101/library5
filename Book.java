@@ -28,11 +28,11 @@ public final class Book {
         private int publishYear;
         private String author;
 
-        public Builder(String title, int publishYear, String author) {
-            this.title = title;
-            this.publishYear = publishYear;
-            this.author = author;
-        }
+        // public Builder(String title, int publishYear, String author) {
+        //     this.title = title;
+        //     this.publishYear = publishYear;
+        //     this.author = author;
+        // }
 
         public Builder setTitle (String title) {
             this.title = title;
