@@ -34,8 +34,9 @@ public final class Book {
             this.author = author;
         }
 
-        public Builder (String title) {
+        public Builder setTitle (String title) {
             this.title = title;
+            return this;
         }
 
         public Builder setPublishYear(int year) {
